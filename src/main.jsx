@@ -17,6 +17,9 @@ const router = createBrowserRouter([
 		path: "/uploadvideo",
 		element: <UploadVideo />,
 	},
+	{
+		
+	}
 ]);
 
 createRoot(document.getElementById("root")).render(

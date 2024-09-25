@@ -1,7 +1,17 @@
+import CallToAction from "../../components/CallToAction";
+import Footer from "../../components/Footer";
+import GrowthStats from "../../components/GrowthStats";
+
+
 const Home = () => {
   return (
-    <div className="bg-slate-800 text-white h-screen text-4xl text-center">Let your Creativity Shine</div>
+    <>
+        <GrowthStats/>
+        <CallToAction/>
+        <Footer/>
+    </>
+
   )
-}
+};
 
 export default Home
