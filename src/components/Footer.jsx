@@ -100,7 +100,7 @@ const Footer = () => {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center transition-transform duration-300 hover:rotate-x-180 hover:scale-110"
+              className="flex items-center justify-center transition-transform duration-300 hover:rotate-x-180 hover:scale-125 "
             >
               <img
                 src={item.iconUrl}

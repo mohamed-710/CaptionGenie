@@ -2,7 +2,7 @@ import discord from '../assets/socials/discord.svg';
 import linkedin from '../assets/socials/linkedin.svg';
 import instagram from '../assets/socials/instagram.svg';
 import facebook from '../assets/socials/facebook.svg';
-import github from '../assets/socials/github.svg'; // Note the correct spelling
+import github from '../assets/socials/github.svg'; 
 import youtube from '../assets/socials/youtube.svg';
 
 export const socialicons = [
@@ -26,7 +26,7 @@ export const socialicons = [
   },
   {
     id: '3',
-    title: 'GitHub', // Corrected title capitalization and spelling
+    title: 'GitHub', 
     iconUrl: github,
     url: '#',
   },
@@ -38,7 +38,7 @@ export const socialicons = [
   },
   {
     id: '5',
-    title: 'YouTube', // Corrected capitalization
+    title: 'YouTube', 
     iconUrl: youtube,
     url: '#',
   },
