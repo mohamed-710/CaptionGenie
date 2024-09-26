@@ -7,11 +7,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        code: "var(--font-code)",
-
-      },
-  
       spacing: {
         0.25: "0.0625rem",
         7.5: "1.875rem",
