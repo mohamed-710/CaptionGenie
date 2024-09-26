@@ -6,10 +6,13 @@ import Message from "../../components/Message";
 const Home = () => {
   return (
     <>
-        <Message/>
+      <div className="bg-[#100919]">
+      <Message/>
         <GrowthStats/>
         <CallToAction/>
         <Footer/>
+      </div>
+     
     </>
 
   )
